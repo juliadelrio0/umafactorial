@@ -1,0 +1,49 @@
+COMANDOS EJECUTADOS DURANTE LA PRÁCTICA:
+
+	- git clone <url>:
+		Sirve para clonar un repositorio remoto en tu máquina local. Es necesario para obtener una copia local del repositorio, permitiendo trabajar con el código y contribuir al proyecto.
+		Ejecutado en el ítem 1.
+	
+	- cd <nombre_directorio>:
+		Cambia el directorio de trabajo actual. Lleva al usuario al directorio del repositorio clonado, donde puede realizar cambios y ejecutar comandos relacionados con Git.
+		Ejecutado en el ítem 1.
+	
+	- git config user.name <nombre_usuario>, git config user.email <correo_electronico_usuario>:
+		Configura la información del usuario en Git (nombre y correo electrónico). Es necesario para asociar los commits con un autor específico.
+		Ambos ejecutados en el ítem 1.
+	
+	- git checkout -b <nombre_rama>:
+		Crea y cambia a una nueva rama. Permite trabajar en una rama separada sin afectar la rama principal (master), útil para realizar cambios o características específicas.
+		Ejecutado en los ítems 2, 5 y 13.
+	
+	- notepad <nombre_archivo>:
+		Abre el editor de texto y permite editar archivos directamente desde la línea de comandos.
+		Ejecutado en los ítems 2, 4, 6, 9, 11, 13, 14, 15, 18 y 20.
+	
+	- git add <nombre_archivo>:
+		Agrega cambios al área de staging, preparándolos para el próximo commit. Es necesario para seleccionar y preparar los cambios específicos que se incluirán en el proximo commit.
+		Ejecutado en los ítems 3, 4, 7, 10, 11, 14, 16 y 19.
+	
+	- git commit -m "Mensaje descriptivo del commit":
+		Realiza un commit con un mensaje descriptivo. Guarda los cambios realizados en el repositorio local con un mensaje explicativo.
+		Ejecutado en los ítems 3, 4, 7, 10, 11, 14, 16 y 19.
+	
+	- git push origin <nombre_rama>:
+		Sube los commits locales al repositorio remoto en GitHub. Hace que los cambios estén disponibles para otros colaboradores y actualiza el repositorio remoto.
+		Ejecutado en los ítems 5, 7, 10, 16 y 19.
+	
+	- git checkout <nombre_rama>:
+		Sirve para cambiar de rama. Permite cambiar entre ramas para trabajar en diferentes funcionalidades o resolver problemas en distintas áreas del proyecto.
+		Ejecutado en los ítems 8, 11, 12, 15, 16 y 17.
+	
+	- git merge <nombre_otra_rama>:
+		Fusiona los cambios de una rama en otra. Combina los cambios realizados en una rama con otra, facilitando la integración de nuevas características.
+		Ejecutado en los ítems 12 y 17.
+	
+	- git stash:
+		Guarda temporalmente los cambios locales sin realizar un commit. Es útil cuando necesitas cambiar de rama pero no quieres realizar un commit incompleto.
+		Ejecutado en el ítem 15.
+	
+	- git stash pop:
+		Recupera los cambios guardados en el stash y los aplica al directorio de trabajo actual. Es útil para restaurar los cambios temporales realizados previamente y continuar trabajando en la rama actual.
+		Ejecutado en el ítem 16.
